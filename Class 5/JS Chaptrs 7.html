@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter # 7</title>
+</head>
+<body>
+    <script>
+// Chapter # 7 Math expressions:Eliminating ambiguity
+
+// First make a multiplying rule with use of var, let variable.
+let value = 1 + 3 * 4;
+console.log(value)
+        //multiplying 3 by 4, then add 1 to the product, you get 13.
+let value1 = 2 - 3 * 4;
+console.log(value1)
+//  //multiplying 3 by 4, then subtract 2 to the product, you get -10. 
+var math = 5 * 3 + 4;
+console.log(math)
+//          //multiplying 5 by 3 then add 4 to the product, you get 19.
+var math = 1 + (3 * 4);
+console.log(math)
+         //multiplying 3 by 4, then add 1 to the product, you get 13 .
+ var resultOfComputation = (2 * 2) * 4 + 2;
+console.log(resultOfComputation)
+         //multiplying 2 by 2, then multiplying by 4 and also add 2 to the value, you get 18 .
+ var math = ((5 * 5) * 4) - 2;
+ console.log(math)  
+         //multiplying 5 by 5, then multiplying by 4 and also subtract 2 to the value, you get 98 .
+ let math1 = (2 + 2) + 2;
+ console.log(math1)
+ let math2 = (2 - 2) + 2;
+ console.log(math2)
+ let math3 = (2 - 2) + (3 + 2);
+ console.log(math3)
+let math4 = (10 + 10) / 3;
+ console.log(math4)
+
+
+
+    </script>
+</body>
+</html>
